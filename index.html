@@ -17,12 +17,15 @@
                     <h1 class="font-heading text-5xl leading-none text-white mb-6 leading-tight">
                     Delivering consistent Desing System
                     </h1>
-                    <h2 class="font-paragraphy text-lg text-white leading-relaxed whitespace-pre-line">A Sketch plugin exports Desing Tokens to JSON format. 
+                    <h2 class="font-paragraphy text-lg text-white leading-relaxed whitespace-pre-line">A Sketch plugin that exports Desing Tokens to JSON format. 
+                    You can export colors, typography, icons and utilis. 
                     A must-have tool for design system project.
                     </h2>
-                    <div class="mt-8">
+                    <div class="mt-8 block">
                         <a href="" class="bg-brand-black hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-full">Download plugin</a>
+                        
                     </div>
+                    <p>Includes the starter Sketch file</p>
                 </div>
                 <div class="flex-1">
                     <div class="flex flex-col md:flex-row">
@@ -99,45 +102,170 @@
             <h2 class="font-paragraphy text-md text-gray-600 mb-4 leading-relaxed">
             Using the plugin and example file is easy
             </h2>
-            <div class="bg-gray-100 rounded-lg w-1/2 h-56 mx-auto shadow-md">
-                Add video
+            <div class="bg-gray-100 rounded-lg w-full h-auto mx-auto shadow-md">
+                <iframe width="100%" height="560" src="https://www.youtube.com/embed/t-Mwimm0kDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
     <section class="container mx-auto px-4 p-20 py-24">
         <div class="flex mb-4 -mx-4 mb-24">
-            <div class="w-1/3 text-center px-4">
-                <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Lorem ipsum</h3>
-                <p class="font-paragraphy">Morbi eget urna commodo, tempus tortor at, 
-                pulvinar sem. Quisque sed diam rutrum, condimentum lacus quis, feugiat sapien.</p>
-            </div>
-            <div class="w-1/3 text-center px-4">
-                <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Lorem ipsum</h3>
-                <p class="font-paragraphy">Morbi eget urna commodo, tempus tortor at, 
+            <div class="w-1/2 text-center px-4">
+                <div class="h-32">
+                    <div class="h-24 min-h-full ...">
+                        <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Colors</h3>
+                        <p class="font-paragraphy mb-8">Morbi eget urna commodo, tempus tortor at, 
                         pulvinar sem. Quisque sed diam rutrum, condimentum lacus quis, feugiat sapien.</p>
+                    </div>
+                </div>
+                <div class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal">
+                    <div class="flex items-center mb-4">
+                        <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
+                        <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
+                        <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+                        <p class="ml-2 text-white">JSON</p>
+                    </div> 
+                    <div class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto">
+                    "color": {
+                        "color-name": {
+                            "value": "#fff",
+                            "type": "color"
+                        },
+                        "color-name": {
+                            "value": "#0000",
+                            "type": "color"
+                        }
+                    }
+                    </div>
+                </div>
             </div>
-            <div class="w-1/3 text-center px-4">
-                <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Lorem ipsum</h3>
-                <p class="font-paragraphy">Morbi eget urna commodo, tempus tortor at, 
-                        pulvinar sem. Quisque sed diam rutrum, condimentum lacus quis, feugiat sapien.</p>
+            <div class="w-1/2 text-center px-4">
+                <div class="h-32">
+                    <div class="h-24 min-h-full ...">
+                        <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Typography</h3>
+                        <p class="font-paragraphy">Morbi eget urna commodo, tempus tortor at</p>
+                    </div>
+                </div>
+                <div class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal">
+                    <div class="flex items-center mb-4">
+                        <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
+                        <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
+                        <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+                        <p class="ml-2 text-white">JSON</p>
+                    </div> 
+                    <div class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto">
+                    "typography": {
+                        "body": {
+                            "font-family": {
+                                "value": "Helvetica"
+                            },
+                            "font-size": {
+                                "value": 12
+                            },
+                            "weight": {},
+                            "letter-spacing": {
+                                "value": 0
+                            },
+                            "line-height": {
+                                "value": 16
+                            },
+                            "type": "typography"
+                        },
+                    }
+                    </div>
+                </div>
             </div>
         </div>
         <div class="flex mb-4 -mx-4 mb-24">
-            <div class="w-1/3 text-center px-4">
-                <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Lorem ipsum</h3>
-                <p class="font-paragraphy">Morbi eget urna commodo, tempus tortor at, 
+            <div class="w-1/2 text-center px-4">
+                <div class="h-32">
+                    <div class="h-24 min-h-full ...">
+                        <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Icons</h3>
+                        <p class="font-paragraphy mb-8">Morbi eget urna commodo, tempus tortor at, 
                         pulvinar sem. Quisque sed diam rutrum, condimentum lacus quis, feugiat sapien.</p>
+                    </div>
+                </div>
+                <div class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal">
+                    <div class="flex items-center mb-4">
+                        <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
+                        <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
+                        <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+                        <p class="ml-2 text-white">JSON</p>
+                    </div> 
+                    <div class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto">
+                        "icon": {
+                            "icon-eye-solid": {
+                                "value": "svg inline code",
+                                "type": "icon"
+                            },
+                            "icon-magic-solid": {
+                                "value": "svg inline code",
+                                "type": "icon"
+                            },
+                            "icon-pencil-ruler-solid": {
+                                "value": "svg inline code",
+                                "type": "icon"
+                            }
+                        }
+                    </div>
+                </div>
             </div>
-            <div class="w-1/3 text-center px-4">
-                <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Lorem ipsum</h3>
-                <p class="font-paragraphy">Morbi eget urna commodo, tempus tortor at, 
+            <div class="w-1/2 text-center px-4">
+                <div class="h-32">
+                    <div class="h-24 min-h-full ...">
+                        <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Utils</h3>
+                        <p class="font-paragraphy mb-8">Morbi eget urna commodo, tempus tortor at, 
                         pulvinar sem. Quisque sed diam rutrum, condimentum lacus quis, feugiat sapien.</p>
-            </div>
-            <div class="w-1/3 text-center px-4">
-                <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Lorem ipsum</h3>
-                <p class="font-paragraphy">Morbi eget urna commodo, tempus tortor at, 
-                        pulvinar sem. Quisque sed diam rutrum, condimentum lacus quis, feugiat sapien.</p>
+                    </div>
+                </div>
+                <div class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal">
+                    <div class="flex items-center mb-4">
+                        <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
+                        <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
+                        <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+                        <p class="ml-2 text-white">JSON</p>
+                    </div> 
+                    <div class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto">
+                    "utils": {
+                        "space-2xs": {
+                            "spacer": 4,
+                            "type": "utils"
+                        },
+                        "radius-4": {
+                            "radius": [
+                                16,
+                                16,
+                                16,
+                                16
+                            ],
+                            "type": "utils"
+                        },
+                        "shadow-dialog": {
+                            "shadows": [
+                                [
+                                    {
+                                        "blur": 24,
+                                        "x": 0,
+                                        "y": 8,
+                                        "spread": 0,
+                                        "color": "#473f4f29",
+                                        "enabled": true
+                                    },
+                                    {
+                                        "blur": 16,
+                                        "x": 0,
+                                        "y": 4,
+                                        "spread": 0,
+                                        "color": "#2e293314",
+                                        "enabled": true
+                                    }
+                                ]
+                            ],
+                            "type": "utils"
+                        }
+                    }
+                    </div>
+                </div>
             </div>
         </div>
     </section>
