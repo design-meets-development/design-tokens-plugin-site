@@ -1,274 +1,286 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="output.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Design Tokens</title>
+  </head>
+  <body>
     <section class="bg-brand-orange">
-        <div class="container mx-auto px-4 p-20 py-24">
-            <div class="flex flex-col lg:flex-row lg:items-center">
-                <div class="flex-1 mb-16">
-                    <img class="object-scale-down w-2/4 mb-8" src="logo.svg" alt="">
-                    <h1 class="font-heading text-5xl leading-none text-white mb-6 leading-tight">
-                    Delivering consistent Desing System
-                    </h1>
-                    <h2 class="font-paragraphy text-lg text-white leading-relaxed whitespace-pre-line">A Sketch plugin that exports Desing Tokens to JSON format. 
-                    You can export colors, typography, icons and utilis. 
-                    A must-have tool for design system project.
-                    </h2>
-                    <div class="mt-8 block">
-                        <a href="" class="bg-brand-black hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-full">Download plugin</a>
-                        
-                    </div>
-                    <p>Includes the starter Sketch file</p>
-                </div>
-                <div class="flex-1">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:flex-auto md:mr-8 mb-8 shadow-lg text-sm font-mono subpixel-antialiased bg-white px-5 pb-6 pt-4 rounded-lg leading-normal">
-                            <div class="flex items-center mb-4">
-                                <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
-                                <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
-                                <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
-                                <p class="ml-2">SKETCH</p>
-                            </div>     
-                            <h3 class="text-lg font-semibold mb-2">Color tokens</h3>
-                            <p class="text-xs text-gray-600 mb-2">Solid or Gradients</p>
-                            <div class="flex mb-4">
-                                <span class="h-16 w-32 bg-pink-500 rounded"></span> 
-                                <span class="ml-2 h-16 w-32 bg-orange-300 rounded"></span> 
-                                <span class="ml-2 h-16 w-32 bg-green-500 rounded"></span>
-                            </div> 
-                            <div class="border-t border-gray-300 mb-2"></div>
-                            <h3 class="text-lg font-semibold mb-2">Typography tokens</h3>
-                            <p class="text-xs text-gray-600 mb-2">Font-families, font-weights and letter-spacing consistently</p>
-                            <div class="flex flex-col mb-4">
-                                <h1 class="text-2xl font-bold">Heading 1</h1>
-                                <h2 class="text-xl font-bold">Heading 2</h2>
-                                <h3 class="text-lg font-bold">Heading 3</h3>
-                                <p class="text-sm">Paragraphy</p>
-                            </div> 
-                            <div class="border-t border-gray-300 mb-2"></div>
-                            <h3 class="text-lg font-semibold mb-2">Utils</h3>
-                            <p class="text-xs text-gray-600 mb-2">Spacing, Radius and Shadow</p>
-                            <div class="flex flex-row mb-4 ">
-                                <span class="h-8 w-8 mr-1 bg-gray-500"> 8px</span> 
-                                <span class="h-16 w-16 mr-1 bg-gray-500"> 16px</span> 
-                                <span class="h-24 w-24 mr-1 bg-gray-500"> 24px</span> 
-                            </div> 
-                        </div>
-                        <div class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal" style="top:32px;">
-                            <div class="flex items-center mb-4">
-                                <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
-                                <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
-                                <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
-                                <p class="ml-2 text-white">JSON</p>
-                            </div> 
-                            <div class="whitespace-pre-line text-blue-300">
-                            {
-                            "typography": {
-                                "body": {
-                                "font-family": {
-                                &nbsp;&nbsp;&nbsp;&nbsp;"value":"Roboto"
-                                },
-                                "font-size": {
-                                &nbsp;&nbsp;&nbsp;&nbsp;"value":11
-                                },
-                                "weight": {},
-                                "letter-spacing": {
-                                &nbsp;&nbsp;&nbsp;&nbsp;"value":0
-                                },
-                                "line-height": {
-                                &nbsp;&nbsp;&nbsp;&nbsp;"value":40
-                                },
-                                "type":"typography"
-                            }
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container mx-auto px-4 p-20 py-24">
+        <div class="flex flex-col lg:flex-row lg:items-center">
+          <div class="flex-1 mb-16">
+            <img class="object-scale-down w-2/4 mb-8" src="logo.svg" alt="" />
+            <h1
+              class="font-heading text-5xl leading-none text-white mb-6 leading-tight"
+            >
+              Delivering consistent Desing System
+            </h1>
+            <h2
+              class="font-paragraphy text-lg text-white leading-relaxed whitespace-pre-line"
+            >
+              A Sketch plugin that exports Desing Tokens to JSON format. You can
+              export colors, typography, icons and utilis. A must-have tool for
+              design system project.
+            </h2>
+            <div class="mt-8 block">
+              <a
+                href="https://github.com/design-meets-development/design-tokens-plugin/releases/tag/1.1.2"
+                class="bg-brand-black hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-full"
+                >Download plugin</a
+              >
             </div>
+            <p class="font-paragraphy text-white mt-8">
+              Includes the
+              <a
+                href="https://github.com/vjandrei/design-tokens/releases/download/0.0.1/example-file.zip"
+                >starter tokens Sketch file.</a
+              >
+            </p>
+            <p class="font-paragraphy text-white mt-8">
+              Github
+              <a
+                class="font-paragraphy text-brand-black  hover:text-orange-700 mt-8"
+                href="https://github.com/vjandrei/design-tokens"
+                >read documentation</a
+              >
+            </p>
+          </div>
+          <div class="flex-1">
+            <div class="flex flex-col md:flex-row">
+              <div
+                class="md:flex-auto md:mr-8 mb-8 shadow-lg text-sm font-mono subpixel-antialiased bg-white px-5 pb-6 pt-4 rounded-lg leading-normal"
+              >
+                <div class="flex items-center mb-4">
+                  <span class="h-3 w-3 bg-red-500 rounded-full"></span>
+                  <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span>
+                  <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+                  <p class="ml-2">SKETCH</p>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Color tokens</h3>
+                <p class="text-xs text-gray-600 mb-2">Solid or Gradients</p>
+                <div class="flex mb-4">
+                  <span class="h-16 w-32 bg-pink-500 rounded"></span>
+                  <span class="ml-2 h-16 w-32 bg-orange-300 rounded"></span>
+                  <span class="ml-2 h-16 w-32 bg-green-500 rounded"></span>
+                </div>
+                <div class="border-t border-gray-300 mb-2"></div>
+                <h3 class="text-lg font-semibold mb-2">Typography tokens</h3>
+                <p class="text-xs text-gray-600 mb-2">
+                  Font-families, font-weights and letter-spacing consistently
+                </p>
+                <div class="flex flex-col mb-4">
+                  <h1 class="text-2xl font-bold">Heading 1</h1>
+                  <h2 class="text-xl font-bold">Heading 2</h2>
+                  <h3 class="text-lg font-bold">Heading 3</h3>
+                  <p class="text-sm">Paragraphy</p>
+                </div>
+                <div class="border-t border-gray-300 mb-2"></div>
+                <h3 class="text-lg font-semibold mb-2">Utils</h3>
+                <p class="text-xs text-gray-600 mb-2">
+                  Spacing, Radius and Shadow
+                </p>
+                <div class="flex flex-row mb-4 ">
+                  <span class="h-8 w-8 mr-1 bg-gray-500"> 8px</span>
+                  <span class="h-16 w-16 mr-1 bg-gray-500"> 16px</span>
+                  <span class="h-24 w-24 mr-1 bg-gray-500"> 24px</span>
+                </div>
+              </div>
+              <div
+                class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal"
+                style="top:32px;"
+              >
+                <div class="flex items-center mb-4">
+                  <span class="h-3 w-3 bg-red-500 rounded-full"></span>
+                  <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span>
+                  <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+                  <p class="ml-2 text-white">JSON</p>
+                </div>
+                <div class="whitespace-pre-line text-blue-300">
+                  { "typography": { "body": { "font-family": {
+                  &nbsp;&nbsp;&nbsp;&nbsp;"value":"Roboto" }, "font-size": {
+                  &nbsp;&nbsp;&nbsp;&nbsp;"value":11 }, "weight": {},
+                  "letter-spacing": { &nbsp;&nbsp;&nbsp;&nbsp;"value":0 },
+                  "line-height": { &nbsp;&nbsp;&nbsp;&nbsp;"value":40 },
+                  "type":"typography" }
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section>
-        <div class="container mx-auto px-4 p-20 py-24 text-center">
-            <h1 class="font-heading text-3xl leading-none text-gray-800 mb-4 leading-tight">
-            See how to use plugin
-            </h1>
-            <h2 class="font-paragraphy text-md text-gray-600 mb-4 leading-relaxed">
-            Using the plugin and example file is easy
-            </h2>
-            <div class="bg-gray-100 rounded-lg w-full h-auto mx-auto shadow-md">
-                <iframe width="100%" height="560" src="https://www.youtube.com/embed/t-Mwimm0kDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+      <div class="container mx-auto px-4 p-20 py-24 text-center">
+        <h1
+          class="font-heading text-3xl leading-none text-gray-800 mb-4 leading-tight"
+        >
+          See how to use plugin
+        </h1>
+        <h2 class="font-paragraphy text-md text-gray-600 mb-4 leading-relaxed">
+          Using the plugin and example file is easy
+        </h2>
+        <div class="bg-gray-100 rounded-lg w-full h-auto mx-auto shadow-md">
+          <iframe
+            width="100%"
+            height="560"
+            src="https://www.youtube.com/embed/t-Mwimm0kDg"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
+      </div>
     </section>
 
-    <section class="container mx-auto px-4 p-20 py-24">
-        <div class="flex mb-4 -mx-4 mb-24">
-            <div class="w-1/2 text-center px-4">
-                <div class="h-32">
-                    <div class="h-24 min-h-full ...">
-                        <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Colors</h3>
-                        <p class="font-paragraphy mb-8">Morbi eget urna commodo, tempus tortor at, 
-                        pulvinar sem. Quisque sed diam rutrum, condimentum lacus quis, feugiat sapien.</p>
-                    </div>
-                </div>
-                <div class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal">
-                    <div class="flex items-center mb-4">
-                        <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
-                        <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
-                        <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
-                        <p class="ml-2 text-white">JSON</p>
-                    </div> 
-                    <div class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto">
-                    "color": {
-                        "color-name": {
-                            "value": "#fff",
-                            "type": "color"
-                        },
-                        "color-name": {
-                            "value": "#0000",
-                            "type": "color"
-                        }
-                    }
-                    </div>
-                </div>
+    <section class="container mx-auto px-4 p-20 py-1 sm:p-1 sm:py-24">
+      <div class="flex mb-4 -mx-4  mb-8 md:mb-24  flex-col md:flex-row">
+        <div class="text-left px-4 w-full md:w-1/2">
+          <div class="h-full md:h-48">
+            <div class="h-full md:h-24 min-h-full pb-4">
+              <h3
+                class="font-heading text-md text-gray-900 mb-4 leading-relaxed"
+              >
+                Colors
+              </h3>
+              <p class="font-paragraphy mb-8 whitespace-pre-line">
+                Naming color token layer by <code>color/name</code>. Important
+                to make color token layer style in Sketch. See in the JSON
+                example what token data will export.
+              </p>
             </div>
-            <div class="w-1/2 text-center px-4">
-                <div class="h-32">
-                    <div class="h-24 min-h-full ...">
-                        <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Typography</h3>
-                        <p class="font-paragraphy">Morbi eget urna commodo, tempus tortor at</p>
-                    </div>
-                </div>
-                <div class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal">
-                    <div class="flex items-center mb-4">
-                        <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
-                        <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
-                        <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
-                        <p class="ml-2 text-white">JSON</p>
-                    </div> 
-                    <div class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto">
-                    "typography": {
-                        "body": {
-                            "font-family": {
-                                "value": "Helvetica"
-                            },
-                            "font-size": {
-                                "value": 12
-                            },
-                            "weight": {},
-                            "letter-spacing": {
-                                "value": 0
-                            },
-                            "line-height": {
-                                "value": 16
-                            },
-                            "type": "typography"
-                        },
-                    }
-                    </div>
-                </div>
+          </div>
+          <div
+            class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal"
+          >
+            <div class="flex items-center mb-4">
+              <span class="h-3 w-3 bg-red-500 rounded-full"></span>
+              <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span>
+              <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+              <p class="ml-2 text-white">JSON</p>
             </div>
+            <div
+              class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto"
+            >
+              "color": { "color-name": { "value": "#fff", "type": "color" },
+              "color-name": { "value": "#0000", "type": "color" } }
+            </div>
+          </div>
         </div>
-        <div class="flex mb-4 -mx-4 mb-24">
-            <div class="w-1/2 text-center px-4">
-                <div class="h-32">
-                    <div class="h-24 min-h-full ...">
-                        <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Icons</h3>
-                        <p class="font-paragraphy mb-8">Morbi eget urna commodo, tempus tortor at, 
-                        pulvinar sem. Quisque sed diam rutrum, condimentum lacus quis, feugiat sapien.</p>
-                    </div>
-                </div>
-                <div class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal">
-                    <div class="flex items-center mb-4">
-                        <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
-                        <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
-                        <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
-                        <p class="ml-2 text-white">JSON</p>
-                    </div> 
-                    <div class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto">
-                        "icon": {
-                            "icon-eye-solid": {
-                                "value": "svg inline code",
-                                "type": "icon"
-                            },
-                            "icon-magic-solid": {
-                                "value": "svg inline code",
-                                "type": "icon"
-                            },
-                            "icon-pencil-ruler-solid": {
-                                "value": "svg inline code",
-                                "type": "icon"
-                            }
-                        }
-                    </div>
-                </div>
+        <div class="text-left px-4 w-full md:w-1/2">
+          <div class="h-full md:h-48">
+            <div class="h-full md:h-24 min-h-full pb-4">
+              <h3
+                class="font-heading text-md text-gray-900 mb-4 leading-relaxed"
+              >
+                Typography
+              </h3>
+              <p class="font-paragraphy mb-8 whitespace-pre-line">
+                Naming typography token layer by <code>font/name</code>.
+                Important to make typography token text style in Sketch. See in
+                the JSON example what token data will export.
+              </p>
             </div>
-            <div class="w-1/2 text-center px-4">
-                <div class="h-32">
-                    <div class="h-24 min-h-full ...">
-                        <h3 class="font-heading text-md text-gray-900 mb-4 leading-relaxed">Utils</h3>
-                        <p class="font-paragraphy mb-8">Morbi eget urna commodo, tempus tortor at, 
-                        pulvinar sem. Quisque sed diam rutrum, condimentum lacus quis, feugiat sapien.</p>
-                    </div>
-                </div>
-                <div class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal">
-                    <div class="flex items-center mb-4">
-                        <span class="h-3 w-3 bg-red-500 rounded-full"></span> 
-                        <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span> 
-                        <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
-                        <p class="ml-2 text-white">JSON</p>
-                    </div> 
-                    <div class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto">
-                    "utils": {
-                        "space-2xs": {
-                            "spacer": 4,
-                            "type": "utils"
-                        },
-                        "radius-4": {
-                            "radius": [
-                                16,
-                                16,
-                                16,
-                                16
-                            ],
-                            "type": "utils"
-                        },
-                        "shadow-dialog": {
-                            "shadows": [
-                                [
-                                    {
-                                        "blur": 24,
-                                        "x": 0,
-                                        "y": 8,
-                                        "spread": 0,
-                                        "color": "#473f4f29",
-                                        "enabled": true
-                                    },
-                                    {
-                                        "blur": 16,
-                                        "x": 0,
-                                        "y": 4,
-                                        "spread": 0,
-                                        "color": "#2e293314",
-                                        "enabled": true
-                                    }
-                                ]
-                            ],
-                            "type": "utils"
-                        }
-                    }
-                    </div>
-                </div>
+          </div>
+          <div
+            class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal"
+          >
+            <div class="flex items-center mb-4">
+              <span class="h-3 w-3 bg-red-500 rounded-full"></span>
+              <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span>
+              <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+              <p class="ml-2 text-white">JSON</p>
             </div>
+            <div
+              class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto"
+            >
+              "typography": { "body": { "font-family": { "value": "Helvetica" },
+              "font-size": { "value": 12 }, "weight": {}, "letter-spacing": {
+              "value": 0 }, "line-height": { "value": 16 }, "type": "typography"
+              }, }
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="flex mb-4 -mx-4 mb-8 md:mb-24 flex-col md:flex-row">
+        <div class="text-left px-4 w-full md:w-1/2">
+          <div class="h-full md:h-48">
+            <div class="h-full md:h-24 min-h-full pb-4">
+              <h3
+                class="font-heading text-md text-gray-900 mb-4 leading-relaxed"
+              >
+                Icons
+              </h3>
+              <p class="font-paragraphy mb-8 whitespace-pre-line">
+                Naming icons token layer by <code>icon/name</code>. Icon tokens
+                will output SVG code for value.
+              </p>
+            </div>
+          </div>
+          <div
+            class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal"
+          >
+            <div class="flex items-center mb-4">
+              <span class="h-3 w-3 bg-red-500 rounded-full"></span>
+              <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span>
+              <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+              <p class="ml-2 text-white">JSON</p>
+            </div>
+            <div
+              class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto"
+            >
+              "icon": { "icon-eye-solid": { "value": "svg inline code", "type":
+              "icon" } }
+            </div>
+          </div>
+        </div>
+        <div class="text-left px-4 w-full md:w-1/2">
+          <div class="h-full md:h-48">
+            <div class="h-full md:h-24 min-h-full pb-4">
+              <h3
+                class="font-heading text-md text-gray-900 mb-4 leading-relaxed"
+              >
+                Utils
+              </h3>
+              <p class="font-paragraphy mb-8 whitespace-pre-line">
+                Naming utilis token layer by <code>utils/space/name</code>,
+                <code>utils/radius/name</code> and
+                <code>utils/shadow/name</code>. See in the JSON example what
+                token data will export.
+              </p>
+            </div>
+          </div>
+          <div
+            class="md:flex-auto mb-8 shadow-lg bg-gray-800 rounded-lg px-5 pb-6 pt-4 leading-normal"
+          >
+            <div class="flex items-center mb-4">
+              <span class="h-3 w-3 bg-red-500 rounded-full"></span>
+              <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span>
+              <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
+              <p class="ml-2 text-white">JSON</p>
+            </div>
+            <div
+              class="whitespace-pre text-blue-300 text-left h-64 overflow-x-auto"
+            >
+              "utils": { "space-2xs": { "spacer": 4, "type": "utils" },
+              "radius-4": { "radius": [ 16, 16, 16, 16 ], "type": "utils" },
+              "shadow-dialog": { "shadows": [ [ { "blur": 24, "x": 0, "y": 8,
+              "spread": 0, "color": "#473f4f29", "enabled": true }, { "blur":
+              16, "x": 0, "y": 4, "spread": 0, "color": "#2e293314", "enabled":
+              true } ] ], "type": "utils" } }
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
-</body>
+    <section class="bg-gray-100">
+      <div class="container mx-auto px-4 p-20 py-24">
+        <p class="font-paragraphy text-xs">
+          ❤️ by <a href="https://github.com/vjandrei">Andreas Koutsoukos </a>
+        </p>
+      </div>
+    </section>
+  </body>
 </html>

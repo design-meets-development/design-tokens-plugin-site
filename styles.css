@@ -16,3 +16,16 @@
 
 @tailwind utilities;
 
+code{
+    background-color: #f7fafc;
+    font-size: .875rem;
+    line-height: 1.7;
+    color: var(--color-code-red);
+    padding-left: .25rem;
+    padding-right: .25rem;
+    border-radius: .125rem;
+    display: inline-block;
+    font-family: Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    vertical-align: baseline;
+    font-weight: 400;
+}

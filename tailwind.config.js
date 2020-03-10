@@ -2,17 +2,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'brand-orange': '#FF9A14',
-        'brand-black': '#333333'
+        
       }
     },
     fontFamily: {
-      'heading':['Ubuntu', 'sans-serif'],
-      'paragraphy': ['Open Sans', 'sans-serif']
+     
     },
     textShadow: {
-      'default': '0 2px 5px rgba(0, 0, 0, 0.5)',
-      'lg': '0 2px 5px rgba(0, 0, 0, 0.5)',
+      
     },
   },
   variants: {

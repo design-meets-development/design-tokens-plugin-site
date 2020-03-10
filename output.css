@@ -11730,6 +11730,20 @@ video {
   font-variant-ligatures: no-contextual;
 }
 
+code{
+  background-color: #f7fafc;
+  font-size: .875rem;
+  line-height: 1.7;
+  color: var(--color-code-red);
+  padding-left: .25rem;
+  padding-right: .25rem;
+  border-radius: .125rem;
+  display: inline-block;
+  font-family: Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  vertical-align: baseline;
+  font-weight: 400;
+}
+
 @media (min-width: 640px){
   .sm\:sr-only{
     position: absolute;
@@ -56105,4 +56119,3 @@ video {
     font-variant-ligatures: no-contextual;
   }
 }
-
